@@ -40,7 +40,7 @@ const Blog = () => {
         </header>
         <hr />
       </div>
-      <section className="flex flex-wrap justify-around">
+      <section className="flex flex-wrap justify-around p-4">
         {
           articles.map((article, index) => {
             let info = { ...article, index }
