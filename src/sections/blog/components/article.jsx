@@ -1,6 +1,6 @@
 function Article(props) {
-  let article = props.props;
-  let colours = {
+  const article = props.props;
+  const colours = {
     article: 'purple',
     video: 'red',
     'case study': 'green'
